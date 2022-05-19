@@ -1,0 +1,45 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0);
+    color: white;
+}
+
+.nav-logo {
+    height: 30px;
+    padding-right: 1rem;
+}
+
+.nav-profile-pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+nav {
+    padding: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav {
+    max-height: 30px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    column-gap: 0.8rem;
+}
+
+.pre-main {
+    padding: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+}
