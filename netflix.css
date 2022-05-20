@@ -1,7 +1,12 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(0, 0, 0);
-    color: white;
+
+}
+
+body {
+    background-color: rgba(0, 0, 0) !important;
+    color: white !important;
 }
 
 .nav-logo {
@@ -39,7 +44,67 @@ nav {
     overflow: hidden;
     white-space: nowrap;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
     overflow: hidden;
     white-space: nowrap;
+}
+
+.btn { 
+    margin-left: 2rem;
+    border: 1px solid white;
+    color:white;
+    background-color: rgb(27, 27, 27);
+}
+
+.row {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+footer {
+    padding: 2rem;
+    margin: 0 10vh;
+    display: flex;
+    color: gray;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.dropdown-menu {
+    z-index: 2;
+}
+
+.icon-pre {
+    border: 1px solid white;
+    padding: 0.3rem;
+}
+
+#last-element::after {
+    background-image: linear-gradient( right, rgba(128, 128, 128, 0), rgba(0, 0, 0, 0.493)) !important;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.container1 {
+    animation: fadein 3s linear forwards;
+}
+
+.container2 {
+    animation: fadein 3s linear 1s forwards;
+}
+
+.container3 {
+    animation: fadein 3s linear 2s forwards;
 }
