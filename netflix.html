@@ -25,7 +25,7 @@
             <div>My List</div>
         </div>
         <div class="nav d-flex">
-            <div><i class="fa-solid fa-magnifying-glass"></i></div>
+            <button type="button" class="btn btn-dark" onclick="seeSearchBar()"><i class="fa-solid fa-magnifying-glass"></i></button>
             <div><a href="#">KIDS</a></div>
             <div><i class="fa-regular fa-bell"></i></div>
             <div><img class="nav-profile-pic" src="https://i.pinimg.com/736x/b8/69/5f/b8695f007aea9a08a0419479217ca6aa.jpg" alt="profile pic"></div>
@@ -130,7 +130,16 @@
                   Service Code
                 </button>
         <p><i class="fa-solid fa-copyright"></i>1997-2019 Netflix,inc</p>
-    </footer>~
+    </footer>
+
+    <script>
+        let searchButton = document.getElementsByClassName('fa-magnifying-glass')
+        let overlapBar = document.getElementsByClassName('overlap-bar')
+
+        function seeSearchBar() {
+            overlapBar.classList.remove('ovelap-bar')
+        }
+    </script>
 
     <script src="https://kit.fontawesome.com/e065ff4ab3.js" crossorigin="anonymous"></script>
 </body>

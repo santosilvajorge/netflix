@@ -79,6 +79,10 @@ footer {
     
 }
 
+.fa-magnifying-glass {
+    background-color: black !important;
+}
+
 .dropdown-menu {
     z-index: 2;
 }
