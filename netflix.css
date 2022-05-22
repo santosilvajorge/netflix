@@ -83,6 +83,16 @@ footer {
     z-index: 2;
 }
 
+.overlap-bar {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 2rem;
+    z-index: 3;
+    visibility: hidden;
+}
+
 .icon-pre {
     border: 1px solid white;
     padding: 0.3rem;
