@@ -31,8 +31,8 @@
             <div><img class="nav-profile-pic" src="https://i.pinimg.com/736x/b8/69/5f/b8695f007aea9a08a0419479217ca6aa.jpg" alt="profile pic"></div>
         </div>
     </nav>
-    <div class="overlap-bar">
-        <div id="x"><i class="fa-solid fa-xmark"></i></div>
+    <div id="search" class="overlap-bar hidden">
+        <div><i onclick="hideSearchBar()" id="x" class="fa-solid fa-xmark"></i></div>
         <div class="dropdown-divider"></div>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
@@ -134,10 +134,14 @@
 
     <script>
         let searchButton = document.getElementsByClassName('fa-magnifying-glass')
-        let overlapBar = document.getElementsByClassName('overlap-bar')
+        let overlapBar = document.getElementById('search')
 
         function seeSearchBar() {
-            overlapBar.classList.remove('ovelap-bar')
+            overlapBar.classList.remove("hidden");
+        }
+
+        function hideSearchBar() {
+            overlapBar.classList.add("hidden");
         }
     </script>
 

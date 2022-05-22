@@ -94,6 +94,13 @@ footer {
     width: 100%;
     padding: 2rem;
     z-index: 3;
+}
+
+#x {
+    justify-content: end;
+}
+
+.hidden {
     visibility: hidden;
 }
 
